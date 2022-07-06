@@ -15,7 +15,7 @@ stages {
   stage {
     echo "==== start building image ===="
     dir ('./') {
-      cmd /K docker build .
+      cmd /K 'docker build .'
     }
   }
 }
